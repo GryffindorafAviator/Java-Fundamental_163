@@ -1,0 +1,17 @@
+package hello;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int Fahrenheit;
+        int Celsius;
+        Scanner in = new Scanner(System.in);
+        Fahrenheit = in.nextInt();
+        Celsius = (int)((5.0/9) * (Fahrenheit - 32));
+        System.out.println(Celsius);
+	}
+
+}
