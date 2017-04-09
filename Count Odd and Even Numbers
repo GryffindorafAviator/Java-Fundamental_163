@@ -1,0 +1,33 @@
+package hello;
+
+import java.util.Scanner;
+
+public class count_odd_and_even_numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner in = new Scanner(System.in);
+        int number = 0;
+        int odd_count = 0;
+        int even_count = 0;
+        
+        while (number != -1)
+        {
+        	number = in.nextInt();
+        	if (number % 2 == 1)
+        	{
+        		odd_count += 1;	
+        	}
+        	else
+        	{
+        		even_count += 1;
+        	}
+            
+        } 
+        
+        System.out.print(odd_count + " " + (even_count-1));
+
+	}
+
+}
