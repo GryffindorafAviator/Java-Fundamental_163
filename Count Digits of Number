@@ -10,12 +10,14 @@ public class Lesson2 {
 		Scanner in = new Scanner(System.in);
 		int number = in.nextInt();
 		int count = 0;
+		
 		do
 		{
 			number = number / 10;
-	        count = count + 1;	
-	        System.out.println("count" + count + "; number"+ number);
+			count = count + 1;	
+			System.out.println("count" + count + "; number"+ number);
 		} while (number > 0);
+		
 		System.out.println(count);	
 	}
 
