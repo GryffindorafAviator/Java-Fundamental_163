@@ -26,7 +26,7 @@ public class JF_3_3_2_PrimeLessThan100 {
 			}
 			else
 			{
-//				System.out.println(n + "²»ÊÇËØÊý");
+//				System.out.println(n + "is not prime");
 			}
 		}
 	}
