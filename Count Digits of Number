@@ -14,7 +14,7 @@ public class Lesson2 {
 		{
 			number = number / 10;
 	        count = count + 1;	
-	        System.out.println("count" + count + "；number"+ number);
+	        System.out.println("count" + count + "; number"+ number);
 		} while (number > 0);
 		System.out.println(count);	
 	}
