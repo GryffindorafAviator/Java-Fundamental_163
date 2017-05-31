@@ -56,7 +56,7 @@ public class Fraction {
 			b = t;
 		}
 		
-		return b;
+		return a;
 	}
 
 	public static void main(String[] args) {
