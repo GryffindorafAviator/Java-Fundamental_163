@@ -87,3 +87,5 @@ public class Sum_of_Primes {
 		System.out.println(sum);
 	}
 }
+
+
